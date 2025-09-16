@@ -1,7 +1,7 @@
 # toki-no
 
 [![Crates.io](https://img.shields.io/crates/v/toki-no.svg?style=flat-square)](https://crates.io/crates/toki-no)
-[![Docs.rs](https://img.shields.io/docsrs/toki-no?style=flat-square)](https://docs.rs/toki-no)
+[![Docs.rs](https://img.shields.io/docsrs/toki-no)](https://docs.rs/toki-no)
 [![Tests](https://github.com/johvnik/toki-no/actions/workflows/rust.yml/badge.svg)](https://github.com/johvnik/toki-no/actions/workflows/rust.yml)
 [![License](https://img.shields.io/crates/l/toki-no.svg)](https://github.com/johvnik/toki-no/blob/main/LICENSE-MIT)
 
