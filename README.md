@@ -2,8 +2,8 @@
 
 [![Crates.io](https://img.shields.io/crates/v/toki-no.svg?style=flat-square)](https://crates.io/crates/toki-no)
 [![Docs.rs](https://img.shields.io/docsrs/toki-no?style=flat-square)](https://docs.rs/toki-no)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/johvnik/toki-no/rust.yml?branch=main&style=flat-square)](https://github.com/johvnik/toki-no/actions)
-[![License](https://img.shields.io/crates/l/toki-no.svg?style=flat-square)](https://github.com/johvnik/toki-no/blob/main/LICENSE-MIT)
+[![Tests](https://github.com/johvnik/toki-no/actions/workflows/rust.yml/badge.svg)](https://github.com/johvnik/toki-no/actions/workflows/rust.yml)
+[![License](https://img.shields.io/crates/l/toki-no.svg)](https://github.com/johvnik/toki-no/blob/main/LICENSE-MIT)
 
 *時の... of time...*
 
@@ -29,11 +29,6 @@ Add `toki-no` to your `Cargo.toml`:
 ```rust
 use std::time::Duration;
 
-// A placeholder for a future async sleep function
-async fn sleep(duration: Duration) {
-    println!("(Pretending to sleep for {:?})", duration);
-}
-
 #[toki_no::main]
 async fn main() {
     println!("Hello from an async world!");
@@ -41,7 +36,7 @@ async fn main() {
     // Spawn a concurrent task
     let handle = toki_no::spawn(async {
         println!("Task is running...");
-        sleep(Duration::from_secs(1)).await;
+        toki_no::sleep(Duration::from_secs(1)).await;
         "Task finished!"
     });
 
