@@ -3,7 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/toki-no.svg?style=flat-square)](https://crates.io/crates/toki-no)
 [![Docs.rs](https://img.shields.io/docsrs/toki-no?style=flat-square)](https://docs.rs/toki-no)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/johvnik/toki-no/rust.yml?branch=main&style=flat-square)](https://github.com/johvnik/toki-no/actions)
-[![License](https://img.shields.io/crates/l/toki-no.svg?style=flat-square)](https://github.com/johvnik/toki-no/blob/main/LICENSE)
+[![License](https://img.shields.io/crates/l/toki-no.svg?style=flat-square)](https://github.com/johvnik/toki-no/blob/main/LICENSE-MIT)
 
 *時の... of time...*
 
