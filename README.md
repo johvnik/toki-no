@@ -22,8 +22,6 @@ The core goal is to provide a runtime that is easy to understand, has a minimal 
 * **I/O Driven:** Powered by a modern event-polling mechanism.
 * **Pure Rust:** Built with safe, modern Rust.
 
----
-
 ## Usage
 
 Add `toki-no` to your `Cargo.toml`:
