@@ -8,6 +8,6 @@ license = "MIT"
 repository = "https://github.com/johvnik/toki-no"
 readme = "README.md"
 keywords = ["async", "runtime", "future", "asynchronous", "executor"]
-categories = ["asynchronous", "concurrency", "network-programming", "systems-programming"]
+categories = ["asynchronous", "concurrency", "network-programming"]
 
 [dependencies]
