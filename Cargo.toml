@@ -1,0 +1,13 @@
+[package]
+name = "toki-no"
+version = "0.1.0"
+edition = "2024"
+authors = ["johvnik <toki-no@johvnik.com>"]
+description = "A minimal and fast async runtime, written in pure Rust."
+license = "MIT"
+repository = "https://github.com/johvnik/toki-no"
+readme = "README.md"
+keywords = ["async", "runtime", "future", "asynchronous", "executor"]
+categories = ["asynchronous", "concurrency", "network-programming", "systems-programming"]
+
+[dependencies]
