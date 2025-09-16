@@ -1,23 +1,19 @@
 # toki-no
 
-*時の... of time...*
-
 [![Crates.io](https://img.shields.io/crates/v/toki-no.svg?style=flat-square)](https://crates.io/crates/toki-no)
 [![Docs.rs](https://img.shields.io/docsrs/toki-no?style=flat-square)](https://docs.rs/toki-no)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/johvnik/toki-no/rust.yml?branch=main&style=flat-square)](https://github.com/johvnik/toki-no/actions)
 [![License](https://img.shields.io/crates/l/toki-no.svg?style=flat-square)](https://github.com/johvnik/toki-no/blob/main/LICENSE)
 
-**`toki-no` is a minimal and fast `async` runtime for Rust.**
+*時の... of time...*
 
----
+**`toki-no` is a minimal and fast `async` runtime for Rust.**
 
 ## Overview
 
 `toki-no` is an exploration into the fundamentals of asynchronous execution, built from the ground up in pure Rust. It provides a lean executor and I/O reactor, focusing on simplicity and performance.
 
 The core goal is to provide a runtime that is easy to understand, has a minimal API, and maintains low overhead.
-
----
 
 ## Features
 
