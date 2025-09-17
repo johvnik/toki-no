@@ -1,13 +1,13 @@
 //! toki-no: A minimal and fast async runtime.
 
-use pin_utils::pin_mut;
 use std::future::Future;
 use std::pin::Pin;
 use std::task::{Context, Poll};
 use std::thread;
 use std::time::{Duration, Instant};
 
-// ## Public API ##
+mod pin_utils;
+mod waker_fn;
 
 /// The `toki-no` async runtime.
 ///
@@ -48,6 +48,7 @@ pub struct Sleep {
 }
 
 /// Creates a new future that will complete after the given `duration`.
+// TODO: create with global timer thread instead of os thread.
 pub fn sleep(duration: Duration) -> Sleep {
     Sleep {
         target_time: Instant::now() + duration,

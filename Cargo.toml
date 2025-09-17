@@ -11,5 +11,3 @@ keywords = ["async", "runtime", "future", "asynchronous", "executor"]
 categories = ["asynchronous", "concurrency", "network-programming"]
 
 [dependencies]
-pin-utils = "0.1.0"
-waker-fn = "1.2.0"
